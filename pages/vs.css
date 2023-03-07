@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* header bar code start */ 
+
+body {
+    font-family: 'Yeseva One', cursive;  
+    width: 100%; 
+}
+.header {
+    display: flex; 
+    padding: 10px 40px 10px 40px; 
+    margin: 0; 
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #38618c; 
+}
+.header img {
+    height: 150px; 
+    width: auto; 
+    border-radius: 50%;
+}
+
+.rightlinks {
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%; 
+    margin: 0; 
+}
+a {
+    color: #38618c; 
+    text-decoration: none;
+}
+a :visited {
+    color: #38618c; 
+    text-decoration: none;
+}
+
+/* header bar code end */ 
+
+.compare {
+    display: flex;
+    height: 100%; 
+}
+.left {
+    width: 50%; 
+    text-align: center;
+    color: #eeeeee; 
+    display: flex;
+    flex-direction: column;
+    background-color: #38618c;
+    border-radius: 10px;
+    height: auto;
+    margin: 18px; 
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.lefttitle {
+    font-size: 100px;
+    font-weight: 1000;
+    justify-content: center;
+}
+.right {
+    width: 50%; 
+    text-align: center;
+    background-color: #ff5064;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 18px; 
+    font-family: 'Open Sans', sans-serif;
+}
+.righttitle {
+    font-size: 90px;
+    font-weight: 1000;
+    justify-content: center;
+}
+ul li {
+    font-family: 'Open Sans', sans-serif;
+}
