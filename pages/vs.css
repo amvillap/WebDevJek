@@ -37,46 +37,94 @@ a :visited {
 }
 
 /* header bar code end */ 
-
-.compare {
-    display: flex;
-    height: 100%; 
-}
-.left {
-    width: 50%; 
+.which {
     text-align: center;
-    color: #eeeeee; 
+    font-family: 'Open Sans', sans-serif;
+}
+.title {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+}
+.intro {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px 20px 20px; 
+}
+.intro img {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%;
+    margin: 15px; 
+}
+.clsblock {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.seblock {
     display: flex;
     flex-direction: column;
-    background-color: #38618c;
-    border-radius: 10px;
-    height: auto;
-    margin: 18px; 
-    font-family: 'Open Sans', sans-serif;
-
-
+    align-items: center;
 }
-.lefttitle {
-    font-size: 100px;
-    font-weight: 1000;
-    justify-content: center;
-}
-.right {
-    width: 50%; 
-    text-align: center;
-    background-color: #ff5064;
+.vs {
+    background-color: #ff5964;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 50px;
     color: white; 
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+}
+.clscap {
+    border-radius: 30px;
+    background-color: lightpink;
+    padding: 20px; 
+    color: black; 
+    font-family: 'Open Sans', sans-serif;
+
+}
+.secap {
+    border-radius: 30px;
+    background-color: lightpink;
+    padding: 20px; 
+    color: black; 
+    font-family: 'Open Sans', sans-serif;
+}
+.cost {
+    display: flex; 
+    background-color: #eeeeee;
+    padding: 40px; 
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.costimg img {
+    width: 100px; 
+    font-family: 'Yeseva One', cursive;  
     margin: 18px; 
+}
+.costimg {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    font-size: 28px;
+}
+.costcap {
+    background-color: #38618c;
+    color: white;
+}
+ul {
+    font-size: 25px;
+    color: #38618c; 
     font-family: 'Open Sans', sans-serif;
 }
-.righttitle {
-    font-size: 90px;
-    font-weight: 1000;
-    justify-content: center;
+ul li{
+    padding: 10px; 
 }
-ul li {
-    font-family: 'Open Sans', sans-serif;
+.secost {
+    max-width: 450px;
+}
+.clscost {
+    max-width: 450px;
 }
