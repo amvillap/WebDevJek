@@ -53,6 +53,7 @@ a :visited {
     align-items: center;
     justify-content: space-evenly;
     padding: 10px 20px 20px 20px; 
+    margin-bottom: 30px; 
 }
 .intro img {
     width: 250px; 
